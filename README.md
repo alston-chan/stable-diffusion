@@ -1,8 +1,14 @@
-### Any questions? Come hop on by to our Discord server!
+### Setup
 
-[![Discord Server](https://discordapp.com/api/guilds/930499730843250783/widget.png?style=banner2)](https://discord.gg/Sx6Spmsgx7)
+1. Download Stable Diffusion model v1.4 from https://drive.yerf.org/wl/?id=EBfTrmcCCUAGaQBXVIj5lJmEhjoP1tgl
+2. Create folder named "stable-diffusion-v1" inside models/ldm/
+3. Rename downloaded model to "model.ckpt" and put inside created folder
+4. Redirect to the main source folder and run "conda env create -f environment.yaml"
 
-All thanks goes to CompVis and Stability AI for releasing this codebase! Pretrained models coming soon...
+### Run Instructions
+1. Run "conda activate ldw"
+2. Run "python scripts/kdiff.py"
+3. Open outputted address in browser (ex. http://192.0.1:3288/)
 
 # Stable Diffusion
 *Stable Diffusion was made possible thanks to a collaboration with [Stability AI](https://stability.ai/) and [Runway](https://runwayml.com/) and builds upon our previous work:*
