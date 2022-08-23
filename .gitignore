@@ -340,4 +340,4 @@ third_party/glog/
 models/ldm/stable-diffusion-v1
 
 # Output
-outputs/txt2img-samples
+outputs
