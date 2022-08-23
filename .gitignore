@@ -335,3 +335,6 @@ buck-out/
 # Downloaded libraries
 third_party/ruy/
 third_party/glog/
+
+# Model
+models/ldm/stable-diffusion-v1
