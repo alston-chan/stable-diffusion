@@ -338,3 +338,6 @@ third_party/glog/
 
 # Model
 models/ldm/stable-diffusion-v1
+
+# Output
+outputs/txt2img-samples
